@@ -1,0 +1,6 @@
+{
+  "name": "Une Nuit Magique pour Baguens",
+  "description": "Une célébration d'anniversaire virtuelle immersive 3D, luxueuse et romantique créée spécialement pour Baguens Jérôme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

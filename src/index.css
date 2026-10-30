@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bordeaux: #7D1224;
+    --color-bordeaux-dark: #3f0912;
+    --color-gold: #e5c158;
+    --color-gold-glow: #ffd978;
+    --color-cream: #faf5ec;
+    --color-powder-rose: #f1cbd2;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #080205;
+    color: #faf5ec;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Luxury gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF1BD 0%, #E5C158 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-rose-gold-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #F5D3D9 40%, #E5C158 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gold glow box shadows */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(229, 193, 88, 0.35), 0 0 50px rgba(125, 18, 36, 0.3);
+}
+
+.gold-glow-subtle {
+  box-shadow: 0 0 15px rgba(229, 193, 88, 0.2);
+}
+
+.bordeaux-card {
+  background: linear-gradient(145deg, rgba(38, 7, 13, 0.85) 0%, rgba(18, 4, 7, 0.95) 100%);
+  border: 1px solid rgba(229, 193, 88, 0.25);
+}
+
+/* Custom scrollbar for gallery and customization modal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 2, 5, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(229, 193, 88, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(229, 193, 88, 0.6);
+}
